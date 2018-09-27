@@ -1,0 +1,46 @@
+
+### eth_getTransactionByHash
+POST https://mainnet.infura.io/1UoO4I
+Content-Type: application/json
+
+{
+    "jsonrpc":"2.0",
+    "method":"eth_getTransactionByHash",
+    "params":["0x802a072a303a1bb19a20065a262526f2cfda0d1ea16eeb3db6500d9d06f65963"],
+    "id":67
+}
+
+### eth_getTransactionByHash
+POST http://localhost:8540
+Content-Type: application/json
+
+{
+    "jsonrpc":"2.0",
+    "method":"eth_getTransactionByHash",
+    "params":["0x78357781d948e3e0a65de93ff965176e852e68a1059b93bea0871d0adf28badb"],
+    "id":67
+}
+
+### eth_getTransactionReceipt
+POST https://mainnet.infura.io/1UoO4I
+Content-Type: application/json
+
+{
+    "jsonrpc":"2.0",
+    "method":"eth_getTransactionReceipt",
+    "params":["0x802a072a303a1bb19a20065a262526f2cfda0d1ea16eeb3db6500d9d06f65963"],
+    "id":67
+}
+
+### eth_getTransactionReceipt
+POST http://localhost:8540
+Content-Type: application/json
+
+{
+    "jsonrpc":"2.0",
+    "method":"eth_getTransactionReceipt",
+    "params":["0x20f20e9d4673f4c05de1c811d9449bf8ee25c4f6d0a20248c315510820e9715b"],
+    "id":67
+}
+
+
