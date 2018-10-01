@@ -11,13 +11,13 @@ Content-Type: application/json
 }
 
 ### eth_getTransactionByHash
-POST http://localhost:8540
+POST http://123.206.29.15:8540
 Content-Type: application/json
 
 {
     "jsonrpc":"2.0",
     "method":"eth_getTransactionByHash",
-    "params":["0x78357781d948e3e0a65de93ff965176e852e68a1059b93bea0871d0adf28badb"],
+    "params":["0xb66f549b119ebadfb1a48e6d6ad99ad7210673e6a07422c65a379fa388779de2"],
     "id":67
 }
 
@@ -33,13 +33,13 @@ Content-Type: application/json
 }
 
 ### eth_getTransactionReceipt
-POST http://localhost:8540
+POST http://123.206.29.15:8540
 Content-Type: application/json
 
 {
     "jsonrpc":"2.0",
     "method":"eth_getTransactionReceipt",
-    "params":["0x20f20e9d4673f4c05de1c811d9449bf8ee25c4f6d0a20248c315510820e9715b"],
+    "params":["0xb66f549b119ebadfb1a48e6d6ad99ad7210673e6a07422c65a379fa388779de2"],
     "id":67
 }
 
